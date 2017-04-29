@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Bai2_UICollectView_FlickrSearch
 //
-//  Created by THANH on 4/29/17.
+//  Created by DVP on 4/29/17.
 //  Copyright © 2017 HCMUTE. All rights reserved.
 //
 
