@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051100E21EB488F800E69248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051100E11EB488F800E69248 /* AppDelegate.swift */; };
+		051100E41EB488F800E69248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051100E31EB488F800E69248 /* ViewController.swift */; };
+		051100E71EB488F800E69248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051100E51EB488F800E69248 /* Main.storyboard */; };
+		051100E91EB488F800E69248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051100E81EB488F800E69248 /* Assets.xcassets */; };
+		051100EC1EB488F800E69248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051100EA1EB488F800E69248 /* LaunchScreen.storyboard */; };
+		051100F71EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051100F61EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.swift */; };
+		051101021EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051101011EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051100F31EB488F800E69248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051100D61EB488F700E69248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051100DD1EB488F700E69248;
+			remoteInfo = Bai2_UICollectView_FlickrSearch;
+		};
+		051100FE1EB488F800E69248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051100D61EB488F700E69248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051100DD1EB488F700E69248;
+			remoteInfo = Bai2_UICollectView_FlickrSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051100DE1EB488F800E69248 /* Bai2_UICollectView_FlickrSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bai2_UICollectView_FlickrSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051100E11EB488F800E69248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		051100E31EB488F800E69248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051100E61EB488F800E69248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051100E81EB488F800E69248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051100EB1EB488F800E69248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051100ED1EB488F800E69248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051100F21EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bai2_UICollectView_FlickrSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051100F61EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai2_UICollectView_FlickrSearchTests.swift; sourceTree = "<group>"; };
+		051100F81EB488F800E69248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051100FD1EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bai2_UICollectView_FlickrSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051101011EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai2_UICollectView_FlickrSearchUITests.swift; sourceTree = "<group>"; };
+		051101031EB488F800E69248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051100DB1EB488F700E69248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100EF1EB488F800E69248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100FA1EB488F800E69248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051100D51EB488F700E69248 = {
+			isa = PBXGroup;
+			children = (
+				051100E01EB488F800E69248 /* Bai2_UICollectView_FlickrSearch */,
+				051100F51EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests */,
+				051101001EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests */,
+				051100DF1EB488F800E69248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051100DF1EB488F800E69248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051100DE1EB488F800E69248 /* Bai2_UICollectView_FlickrSearch.app */,
+				051100F21EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.xctest */,
+				051100FD1EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051100E01EB488F800E69248 /* Bai2_UICollectView_FlickrSearch */ = {
+			isa = PBXGroup;
+			children = (
+				051100E11EB488F800E69248 /* AppDelegate.swift */,
+				051100E31EB488F800E69248 /* ViewController.swift */,
+				051100E51EB488F800E69248 /* Main.storyboard */,
+				051100E81EB488F800E69248 /* Assets.xcassets */,
+				051100EA1EB488F800E69248 /* LaunchScreen.storyboard */,
+				051100ED1EB488F800E69248 /* Info.plist */,
+			);
+			path = Bai2_UICollectView_FlickrSearch;
+			sourceTree = "<group>";
+		};
+		051100F51EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				051100F61EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.swift */,
+				051100F81EB488F800E69248 /* Info.plist */,
+			);
+			path = Bai2_UICollectView_FlickrSearchTests;
+			sourceTree = "<group>";
+		};
+		051101001EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051101011EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.swift */,
+				051101031EB488F800E69248 /* Info.plist */,
+			);
+			path = Bai2_UICollectView_FlickrSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051100DD1EB488F700E69248 /* Bai2_UICollectView_FlickrSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051101061EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearch" */;
+			buildPhases = (
+				051100DA1EB488F700E69248 /* Sources */,
+				051100DB1EB488F700E69248 /* Frameworks */,
+				051100DC1EB488F700E69248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bai2_UICollectView_FlickrSearch;
+			productName = Bai2_UICollectView_FlickrSearch;
+			productReference = 051100DE1EB488F800E69248 /* Bai2_UICollectView_FlickrSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051100F11EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051101091EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearchTests" */;
+			buildPhases = (
+				051100EE1EB488F800E69248 /* Sources */,
+				051100EF1EB488F800E69248 /* Frameworks */,
+				051100F01EB488F800E69248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051100F41EB488F800E69248 /* PBXTargetDependency */,
+			);
+			name = Bai2_UICollectView_FlickrSearchTests;
+			productName = Bai2_UICollectView_FlickrSearchTests;
+			productReference = 051100F21EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		051100FC1EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0511010C1EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearchUITests" */;
+			buildPhases = (
+				051100F91EB488F800E69248 /* Sources */,
+				051100FA1EB488F800E69248 /* Frameworks */,
+				051100FB1EB488F800E69248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051100FF1EB488F800E69248 /* PBXTargetDependency */,
+			);
+			name = Bai2_UICollectView_FlickrSearchUITests;
+			productName = Bai2_UICollectView_FlickrSearchUITests;
+			productReference = 051100FD1EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051100D61EB488F700E69248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					051100DD1EB488F700E69248 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					051100F11EB488F800E69248 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 051100DD1EB488F700E69248;
+					};
+					051100FC1EB488F800E69248 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 051100DD1EB488F700E69248;
+					};
+				};
+			};
+			buildConfigurationList = 051100D91EB488F700E69248 /* Build configuration list for PBXProject "Bai2_UICollectView_FlickrSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051100D51EB488F700E69248;
+			productRefGroup = 051100DF1EB488F800E69248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051100DD1EB488F700E69248 /* Bai2_UICollectView_FlickrSearch */,
+				051100F11EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests */,
+				051100FC1EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051100DC1EB488F700E69248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051100EC1EB488F800E69248 /* LaunchScreen.storyboard in Resources */,
+				051100E91EB488F800E69248 /* Assets.xcassets in Resources */,
+				051100E71EB488F800E69248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100F01EB488F800E69248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100FB1EB488F800E69248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051100DA1EB488F700E69248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051100E41EB488F800E69248 /* ViewController.swift in Sources */,
+				051100E21EB488F800E69248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100EE1EB488F800E69248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051100F71EB488F800E69248 /* Bai2_UICollectView_FlickrSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051100F91EB488F800E69248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051101021EB488F800E69248 /* Bai2_UICollectView_FlickrSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051100F41EB488F800E69248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051100DD1EB488F700E69248 /* Bai2_UICollectView_FlickrSearch */;
+			targetProxy = 051100F31EB488F800E69248 /* PBXContainerItemProxy */;
+		};
+		051100FF1EB488F800E69248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051100DD1EB488F700E69248 /* Bai2_UICollectView_FlickrSearch */;
+			targetProxy = 051100FE1EB488F800E69248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051100E51EB488F800E69248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051100E61EB488F800E69248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051100EA1EB488F800E69248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051100EB1EB488F800E69248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051101041EB488F800E69248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051101051EB488F800E69248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051101071EB488F800E69248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		051101081EB488F800E69248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0511010A1EB488F800E69248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bai2_UICollectView_FlickrSearch.app/Bai2_UICollectView_FlickrSearch";
+			};
+			name = Debug;
+		};
+		0511010B1EB488F800E69248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bai2_UICollectView_FlickrSearch.app/Bai2_UICollectView_FlickrSearch";
+			};
+			name = Release;
+		};
+		0511010D1EB488F800E69248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bai2_UICollectView_FlickrSearch;
+			};
+			name = Debug;
+		};
+		0511010E1EB488F800E69248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bai2_UICollectView_FlickrSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.Bai2-UICollectView-FlickrSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bai2_UICollectView_FlickrSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051100D91EB488F700E69248 /* Build configuration list for PBXProject "Bai2_UICollectView_FlickrSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051101041EB488F800E69248 /* Debug */,
+				051101051EB488F800E69248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051101061EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051101071EB488F800E69248 /* Debug */,
+				051101081EB488F800E69248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051101091EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511010A1EB488F800E69248 /* Debug */,
+				0511010B1EB488F800E69248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0511010C1EB488F800E69248 /* Build configuration list for PBXNativeTarget "Bai2_UICollectView_FlickrSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0511010D1EB488F800E69248 /* Debug */,
+				0511010E1EB488F800E69248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051100D61EB488F700E69248 /* Project object */;
+}
