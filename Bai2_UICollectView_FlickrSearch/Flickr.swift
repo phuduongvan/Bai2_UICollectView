@@ -2,7 +2,7 @@
 	
 import UIKit
 
-let apiKey = "02d4a82677247fa0d2ef42c3d218c21b"
+let apiKey = "e258dacf03b435fca95660ccabfb24c7"
 
 class Flickr {
   
@@ -127,7 +127,7 @@ class Flickr {
       return nil
     }
     /*
-     https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=02d4a82677247fa0d2ef42c3d218c21b&format=rest     */
+    https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e258dacf03b435fca95660ccabfb24c7&format=rest */
     //
     let URLString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(apiKey)&text=\(escapedTerm)&per_page=20&format=json&nojsoncallback=1"
     
